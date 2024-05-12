@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Tampering Detection</title>
+</head>
+<body>
+    <h1>Please Upload Original and Tampered Images</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <input type="file" name="original" accept=".jpg, .jpeg, .png" required><br><br>
+        <input type="file" name="tampered" accept=".jpg, .jpeg, .png" required><br><br>
+        <button type="submit">Compare Images</button>
+    </form>
+</body>
+</html>
